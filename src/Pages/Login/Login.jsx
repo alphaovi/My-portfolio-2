@@ -1,12 +1,9 @@
-import loginImg from "../../images/login-2.jpg";
+import loginImg from "../../images/login-3.jpg";
 
 const Login = () => {
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div className={`hero min-h-screen bg-base-200`} style={{backgroundImage: `url(${loginImg})`, backgroundSize: "cover"}}>
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="text-center lg:text-left">
-                    <img src={loginImg} alt="" />
-                </div>
                 <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <form className="card-body">
                         <div className="form-control">
